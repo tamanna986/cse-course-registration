@@ -1,65 +1,75 @@
 [
     {
+      "id": 1, 
       "img": "https://i.ibb.co/HKn936q/Rectangle-2-6.png",
       "course_name": "Introduction to Web Development",
       "credit": 3,
-      "price": 49.99,
-      "course_details": "Learn the basics of HTML, CSS, and JavaScript to kickstart your web development journey."
+      "price": 4999,
+      "course_details": "Learn  basics of HTML, CSS, and JavaScript to kickstart  web development ."
+      
     },
     {
+      "id": 2,
       "img": "https://i.ibb.co/Vx1DNCg/Rectangle-2.png",
       "course_name": "Data Science Fundamentals",
       "credit": 4,
-      "price": 79.99,
-      "course_details": "Explore data analysis, machine learning, and data visualization techniques in Python."
+      "price": 7999,
+      "course_details": "Explore data analysis, machine learning, and data visualization techniques in Python and master data science."
     },
     {
+      "id": 3, 
       "img": "https://i.ibb.co/PrQ9Q53/Rectangle-2-5.png",
       "course_name": "Cybersecurity Fundamentals",
       "credit": 3,
-      "price": 59.99,
-      "course_details": "Learn about the basics of cybersecurity and securing computer systems."
+      "price": 5999,
+      "course_details": "Learn about the basics of cybersecurity and securing computer systems and apply it in real life world with security protocol."
     },
     {
+      "id": 4, 
       "img": "https://i.ibb.co/ZSvLrGx/Rectangle-2-4.png",
       "course_name": "Object Oriented Programming",
       "credit": 4,
-      "price": 69.99,
-      "course_details": "Build Android and iOS apps using OOP."
+      "price": 6999,
+      "course_details": "Master OOP with the knowledge of classes, objects, encapsulation, inheritance, and polymorphism. ."
     },
     {
+      "id": 5, 
       "img": "https://i.ibb.co/wsNqfNs/Rectangle-2-3.png",
       "course_name": "Algorithm",
       "credit": 3,
-      "price": 89.99,
-      "course_details": "Explore advanced data structures and algorithmic techniques for problem-solving with sorting ,search ,dynamic programming, and graph algorithms."
+      "price": 8999,
+      "course_details": "Explore  algorithmic techniques for problem-solving with sorting ,search ,dynamic programming, and graph algorithms."
     },
     {
-      "img": "https://i.ibb.co/v1ZKKym/dg.png",
+      "id": 6,
+      "img": "https://i.ibb.co/HKn936q/Rectangle-2-6.png",
       "course_name": "Graphic Design Fundamentals",
       "credit": 2,
-      "price": 39.99,
+      "price": 3999,
       "course_details": "Discover the principles of graphic design, including typography and layout."
     },
     {
-      "img": "https://i.ibb.co/Gv6QKQh/ai.png",
+      "id": 7,
+      "img": "https://i.ibb.co/PrQ9Q53/Rectangle-2-5.png",
       "course_name": "Artificial Intelligence Essentials",
       "credit": 4,
-      "price": 99.99,
-      "course_details": "Dive into the world of AI with topics like neural networks and natural language processing."
+      "price": 9999,
+      "course_details": "Dive into the world of AI with topics like neural networks and NLP."
     },
     {
+      "id": 8,
       "img": "https://i.ibb.co/09bGrxN/Rectangle-2-2.png",
       "course_name": "C Programming",
       "credit": 2,
-      "price": 29.99,
+      "price": 2999,
       "course_details": "Get started with C programming, with the basics of C, including syntax, data types, control structures, and functions."
     },
     {
+      "id": 9,
       "img": "https://i.ibb.co/j9CDH3c/Rectangle-2-1.png",
       "course_name": "Database Management and SQL",
       "credit": 2,
-      "price": 49.99,
+      "price": 4999,
       "course_details": "Master database design and SQL query language for data management."
     }
   ]

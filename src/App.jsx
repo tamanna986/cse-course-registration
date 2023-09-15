@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './assets/components/Header/Header'
 import Courses from './assets/components/Courses/Courses'
+import Cart from './assets/components/Cart/Cart'
 
 function App() {
   
@@ -12,7 +13,11 @@ function App() {
     <>
       
       <Header></Header>
+      <div className='flex mt-10'>
       <Courses></Courses>
+      <Cart></Cart>
+      
+      </div>
 
       
     </>
