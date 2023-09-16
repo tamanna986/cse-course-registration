@@ -14,7 +14,7 @@
       "course_name": "Data Science Fundamentals",
       "credit": 4,
       "price": 7999,
-      "course_details": "Explore data analysis, machine learning, and data visualization techniques in Python and master data science."
+      "course_details": "Explore data analysis, machine learning, and data visualization techniques ."
     },
     {
       "id": 3, 
@@ -22,7 +22,7 @@
       "course_name": "Cybersecurity Fundamentals",
       "credit": 3,
       "price": 5999,
-      "course_details": "Learn about the basics of cybersecurity and securing computer systems and apply it in real life world with security protocol."
+      "course_details": "Learn about the basics of cybersecurity and securing computer systems."
     },
     {
       "id": 4, 
@@ -30,7 +30,7 @@
       "course_name": "Object Oriented Programming",
       "credit": 4,
       "price": 6999,
-      "course_details": "Master OOP with the knowledge of classes, objects, encapsulation, inheritance, and polymorphism. ."
+      "course_details": "Master OOP with the knowledge of encapsulation, inheritance, and polymorphism. ."
     },
     {
       "id": 5, 
