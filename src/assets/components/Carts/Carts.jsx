@@ -5,7 +5,7 @@ const Carts = ({ carts, totalCreditHour, CreditHourRemaining, totalPrice }) => {
 
     // console.log(carts)
     return (
-        <div className="md:w-[800px]   ">
+        <div className="md:w-[800px] ">
             <div className=" bg-white p-10 space-y-4 rounded-lg">
                 <h2 className="text-blue-400  font-semibold text-start">Credit Hour Remaining {CreditHourRemaining} hr</h2>
                 <hr />
@@ -14,10 +14,13 @@ const Carts = ({ carts, totalCreditHour, CreditHourRemaining, totalPrice }) => {
 
                 {
                     carts.map((cart, idx) => (
-                        // console.log(cart)
-                        <li key={idx} className='list-decimal'> <Cart
+
+                        <Cart
+
                             key={cart.id}
-                            cart={cart} ></Cart></li>
+                            idx={idx + 1}
+                            cart={cart} ></Cart>
+
 
                     ))
 
