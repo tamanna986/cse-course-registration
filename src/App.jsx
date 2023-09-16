@@ -30,12 +30,12 @@ function App() {
         price = price + item.price;
       });
       const CreditHourRemaining = 20 - count;
-      if (count>20 && CreditHourRemaining <= 0 ){
+      if (count > 20 && CreditHourRemaining <= 0) {
         return toast('Cant take courses over credit 20 hr')
       }
-      else{
+      else {
         setTotalCreditHour(count)
-        
+
         setCreditHourRemaining(CreditHourRemaining)
         setTotalPrice(price)
         const newCart = [...carts, course]
