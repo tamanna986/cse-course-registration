@@ -13,11 +13,11 @@ const Carts = ({carts, totalCreditHour , CreditHourRemaining , totalPrice}) => {
             <h2 className='font-semibold text-xl mb-8 text-start'>Course Name</h2>
             
          {
-            carts.map((cart) => (
+            carts.map((cart , idx) => (
                 // console.log(cart)
-                <Cart 
-                key = {cart.id}
-                cart ={cart} ></Cart>
+             <li  key = {idx} className='list-decimal'> <Cart 
+             key = {cart.id}
+             cart ={cart} ></Cart></li>
                 
             ))
           
