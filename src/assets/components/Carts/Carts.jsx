@@ -5,7 +5,8 @@ const Carts = ({carts, totalCreditHour , CreditHourRemaining , totalPrice}) => {
     
     // console.log(carts)
     return (
-        <div className="md:w-[800px] bg-white p-10 space-y-4 ">
+        <div className="md:w-[800px]   ">
+            <div className=" bg-white p-10 space-y-4 rounded-lg">
             <h2 className="text-blue-400  font-semibold text-start">Credit Hour Remaining {CreditHourRemaining} hr</h2>
             <hr />
             
@@ -22,9 +23,10 @@ const Carts = ({carts, totalCreditHour , CreditHourRemaining , totalPrice}) => {
           
          }
          <hr />
-         <h2 className='text-start'>Total Credit Hour: {totalCreditHour}hr</h2>
+         <h2 className='text-start  font-medium'>Total Credit Hour: {totalCreditHour}hr</h2>
          <h2 className='text-start font-semibold'>Total Price: {totalPrice} USD</h2>
          
+            </div>
         </div>
     );
 };
