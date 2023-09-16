@@ -29,13 +29,19 @@ function App() {
         count = count + item.credit;
         price = price + item.price;
       });
-
-      setTotalCreditHour(count)
       const CreditHourRemaining = 20 - count;
-      setCreditHourRemaining(CreditHourRemaining)
-      setTotalPrice(price)
-      const newCart = [...carts, course]
-      setCarts(newCart)
+      if (count>20){
+        return alert('no way')
+      }
+      else{
+        setTotalCreditHour(count)
+        
+        setCreditHourRemaining(CreditHourRemaining)
+        setTotalPrice(price)
+        const newCart = [...carts, course]
+        setCarts(newCart)
+      }
+
     }
 
 

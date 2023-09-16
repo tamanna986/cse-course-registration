@@ -11,14 +11,14 @@ const Course = ({ course, handleCart}) => {
         <div className="space-y-4">
             <h2 className="card-title text-start">{course_name}</h2>
             <p className='text-start text-gray-500'>{course_details}</p>
-            <div className='flex gap-3'>
-                <div className='text-gray-600 flex gap-1'>
-                    <img src={dollar} alt="" />
-                    <p>Price : {price}</p>
+            <div className='flex gap-1 '>
+                <div className='text-gray-600 flex'>
+                    <img className='' src={dollar} alt="" />
+                    <p>Price:{price}</p>
                 </div>
-                <div className='text-gray-600 flex gap-1'>
+                <div className='text-gray-600 flex '>
                     <img src={icon} alt="" />
-                    <p>Credit : {credit}hr</p>
+                    <p>Credit:{credit}hr</p>
                 </div>
             </div>
                 <button onClick={() => handleCart(course)} className="btn btn-info w-full text-white text-lg">Select</button>

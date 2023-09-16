@@ -30,7 +30,7 @@
       "course_name": "Object Oriented Programming",
       "credit": 4,
       "price": 6999,
-      "course_details": "Master OOP with the knowledge of encapsulation, inheritance, and polymorphism. ."
+      "course_details": "Master OOP with the knowledge of encapsulation and polymorphism. ."
     },
     {
       "id": 5, 
@@ -38,7 +38,7 @@
       "course_name": "Algorithm",
       "credit": 3,
       "price": 8999,
-      "course_details": "Explore  algorithmic techniques for problem-solving with sorting ,search ,dynamic programming, and graph algorithms."
+      "course_details": "Explore algorithmic techniques for problem-solving with programming graph algorithms."
     },
     {
       "id": 6,
@@ -62,7 +62,7 @@
       "course_name": "C Programming",
       "credit": 2,
       "price": 2999,
-      "course_details": "Get started with C programming, with the basics of C, including syntax, data types, control structures, and functions."
+      "course_details": "Get started with C programming, with the basics of C, including  control structures, and functions."
     },
     {
       "id": 9,
