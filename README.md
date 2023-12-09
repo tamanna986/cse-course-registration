@@ -1,4 +1,4 @@
-***Three features of this Course Registration project are:
+*** Features of this Course Registration project are:
 
 . Here student can select Courses according to their choices.And their selected courses names along with their total credit hours, total price and remaining credit hour for all selected course will be shown on a cart presented in the right side. 
 
@@ -7,6 +7,14 @@
 .Any student can only select courses upto 20hr credit. If the tries to select over 20hr credit it will show a toast that they cant select anymore courses. 
 
 .In the cart they can sees the remaining credit hour after selecting their courses by which they can decide how much else they can purchase.
+
+***Technology and tools : ***
+HTML, CSS, JS, React, Tailwind
+
+
+
+
+
 
 ***Discussion regarding how I managed the state in myr assignment project:
 
